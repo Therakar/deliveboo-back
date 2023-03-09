@@ -1,0 +1,137 @@
+.ms-lh-0 {
+    line-height: 0;
+}
+
+.ms-white-hover:hover {
+    color: white;
+}
+
+.ms-bg-title {
+    background-image: linear-gradient(white, black);
+}
+
+.ms-mh-400-cover {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.ms-mh-400-contain {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.logo{
+    opacity: 1;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    margin:0;
+    align-items: center; 
+
+    img{
+        height: 70px;
+        width: 100%;
+        object-fit:cover;
+    }
+}
+
+.logo-title{
+    width: 80%;
+    color: #00b8a8;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 600;
+}
+
+.welcome-logo{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    margin:0;
+    align-items: center;
+
+    h1{
+        width: 80%;
+        color: #00b8a8;
+        font-family: 'Tilt Neon', cursive;
+        font-weight: 600;
+    }
+
+    img{
+        height: 200px;
+        width: 100%;
+        object-fit:cover;
+    }
+}
+
+.navbar-welcome{
+    top:0;
+    z-index: 100;
+}
+
+.card-access-form{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid #00b8a8;
+}
+
+.jumbotron{
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/461359/pexels-photo-461359.jpeg);
+    background-size: cover;
+    height: 100vh;
+
+    .welcome-title{
+        color: #00b8a8;
+    }
+
+    .welcome-text{
+        color: white;
+    }
+}
+@media screen and (max-width:768px){
+    .aside{
+        height: 0 !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  
+    &:hover {
+      color: #00b8a8;
+    }
+  }
+button {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 149, 149);
+    font-weight: bold;
+    cursor: pointer;
+  
+    
+  }
+.btn-blue-white{
+  
+    background-color: #00b8a8;
+    color: white;
+    font-weight: bold;
+    margin: 0px 10px;
+    cursor: pointer;
+  
+    &:hover{
+        background-color: white;
+        color: #00b8a8;
+        a{
+        color: #00b8a8;
+        }
+    }
+    
+  }
+
+.ms-text-bg-primary {
+    background-color: #00b8a8;
+}

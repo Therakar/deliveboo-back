@@ -1,0 +1,8 @@
+Nome-da-100-caratteri_________          0123456789----------aaaaaAAAAA0123456789----------aaaaaAAAAA
+Nome-da-101-caratteri_________          0123456789----------aaaaaAAAAA0123456789----------aaaaaAAAAA1
+
+Città-da-50-caratteri_________          0123456789
+Città-da-51-caratteri_________          0123456789-
+
+Indirizzo-da-100-caratteri____          0123456789----------aaaaaAAAAA0123456789----------aaaaaAAAAA
+Indirizzo-da-101-caratteri____          0123456789----------aaaaaAAAAA0123456789----------aaaaaAAAAA-

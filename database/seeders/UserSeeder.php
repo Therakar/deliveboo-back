@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
         User::truncate();
         Schema::enableForeignKeyConstraints();
 
-        for($i = 0; $i < 10 ; $i++){
+        for($i = 0; $i < 20 ; $i++){
             $new_user = new User();
             $new_user->name = $faker->name();
             $new_user->email = $faker->email();
